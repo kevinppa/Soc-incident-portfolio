@@ -44,7 +44,7 @@ Windows Security logs were reviewed to determine the target account, logon metho
 
 \- \*\*Logon Type:\*\* 2 (Local) 
 
-\- \*\*Time Window:\*\* <e.g., 20:40–20:45
+\- \*\*Time Window:\*\* 20:40–20:45
 
 \- \*\*Count:\*\* 12 failed logons
 
@@ -87,5 +87,6 @@ Repeated failed logons increase the risk of account compromise through brute-for
 
 
 \*\*Outcome:\*\* Suspicious authentication behaviour detected and documented. Further monitoring recommended.
+
 
 
