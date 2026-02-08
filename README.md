@@ -17,4 +17,7 @@ Graduate Visa (UK) – Available to start immediately.
 - Skills: Endpoint investigation, timeline analysis, evidence validation, incident scoping
 - [View Incident Report](Incident-02-Endpoint-Investigation.md)
 
-(Additional incidents will be added)
+### 3. Suspicious Authentication Activity (Windows Event ID 4625)
+- Detected repeated failed logons and assessed brute-force risk using Windows Security logs
+- Skills: Log analysis, incident triage, response recommendations
+- [View Incident Report](Incident-03-Suspicious-Authentication.md)
