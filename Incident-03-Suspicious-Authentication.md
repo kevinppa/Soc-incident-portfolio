@@ -6,7 +6,7 @@
 
 \*\*Detection Source:\*\* Windows Security Logs (Event Viewer)  
 
-\*\*Date Observed:\*\* <DD/MM/YYYY>  
+\*\*Date Observed:\*\* <08/02/2026>  
 
 \*\*Analyst:\*\* Kevin Mathew Philip
 
@@ -87,4 +87,5 @@ Repeated failed logons increase the risk of account compromise through brute-for
 
 
 \*\*Outcome:\*\* Suspicious authentication behaviour detected and documented. Further monitoring recommended.
+
 
