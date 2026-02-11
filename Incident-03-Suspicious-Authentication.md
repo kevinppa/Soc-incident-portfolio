@@ -93,3 +93,60 @@ To isolate authentication failures, the following filter was applied in Event Vi
 
 ```text
 Event ID: 4625
+Key fields reviewed:
+
+Account Name
+
+Logon Type
+
+Failure Reason
+
+Time Created
+
+No successful logon (Event ID 4624) was observed immediately following the failed attempts.
+
+5. Impact Assessment
+
+If successful, the activity could have resulted in:
+
+Account compromise
+
+Privilege escalation (if high-privilege account)
+
+Lateral movement within network
+
+Although no successful login was recorded, the behaviour presented authentication risk.
+
+Risk Level: Medium
+
+6. Response & Recommendations
+Immediate Actions
+
+Reset targeted account password
+
+Review account lockout policy
+
+Monitor for continued failed attempts
+
+Hardening Measures
+
+Enforce strong password requirements
+
+Implement account lockout thresholds
+
+Enable Multi-Factor Authentication (MFA)
+
+Monitoring Improvements
+
+Alert on multiple failed logons within short timeframe
+
+Monitor for Logon Type 10 (Remote Interactive) attempts
+
+Correlate 4625 failures with 4624 success events
+
+7. Final Assessment
+
+The repeated Event ID 4625 entries between 20:40–20:45 indicate suspicious authentication behaviour consistent with password guessing attempts.
+
+Although no successful login was confirmed, the activity required monitoring and strengthened authentication controls.
+
